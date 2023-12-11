@@ -1,6 +1,6 @@
 [package]
 name = "ju-tcs-rust-23-20"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A library to get tail and head of the file"
 license-file = "LICENSE"
