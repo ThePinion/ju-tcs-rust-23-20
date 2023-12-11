@@ -2,6 +2,9 @@ use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 
+#[cfg(test)]
+mod tests;
+
 pub fn head(path: &Path, count: usize) -> io::Result<Vec<String>> {
     let lines = read_lines(path)?;
     lines
